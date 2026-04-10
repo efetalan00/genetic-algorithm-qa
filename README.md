@@ -15,3 +15,26 @@
 ## Як запустити
 1. Клонуйте репозиторій: `git clone https://github.com/efetalan00/genetic-algorithm-qa.git`
 2. Запустіть основний скриpt: `python main.py`
+# Genetic Algorithm Simulator (QA Project)
+
+Цей проект є симулятором генетичного алгоритму, розробленим у межах навчального курсу. Він дозволяє візуалізувати еволюційні процеси, такі як селекція, кросовер та мутація.
+
+## Візуалізація архітектури (Architecture Diagrams)
+
+### 1. Алгоритмічний процес (Activity Diagram)
+```mermaid
+graph TD
+    A[Початок] --> B{Ініціалізація}
+    B --> C[Оцінка фітнесу]
+    C --> D{Умова зупинки?}
+    D -- Ні --> E[Селекція]
+    E --> F[Кросовер]
+    F --> G[Мутація]
+    G --> C
+    D -- Так --> H[Найкраще рішення]
+graph LR
+    A[Код] --> B[Husky Linting]
+    B --> C[GitHub Push]
+    C --> D[Actions CI]
+    D --> E[TypeDoc Gen]
+    E --> F[Deploy]
