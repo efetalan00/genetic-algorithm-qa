@@ -1,6 +1,6 @@
 import random
-from logger_config import logger
-from exceptions import GeneticAlgorithmError
+from .logger_config import logger
+from .exceptions import GeneticAlgorithmError
 
 
 class GeneticAlgorithm:
