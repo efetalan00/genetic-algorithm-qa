@@ -1,0 +1,38 @@
+# --- PyCharm & IDE ---
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# --- Environment & Secrets ---
+.env
+.venv
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib64/
+parts/
+sdist/
+var/
