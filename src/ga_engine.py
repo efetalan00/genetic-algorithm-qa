@@ -22,9 +22,12 @@ class GeneticAlgorithm:
         self.genome_length = 8
         self.population = self.initialize_population(pop_size)
 
+    import numpy as np
+
+    import random  # numpy yerine bunu kullanıyoruz
+
     def initialize_population(self, size):
-        # DEBUG seviyesi: Sadece derinlemesine analizde görünür
-        logger.debug(f"{size} boyutunda yeni popülasyon oluşturuluyor...")
+        # Standart Python yöntemi (Hata vermez ve hızlıdır)
         return [[random.randint(0, 1) for _ in range(8)] for _ in range(size)]
 
     def mutate(self, individual):
