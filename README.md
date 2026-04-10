@@ -22,9 +22,3 @@ graph TD
 
 
 
-graph LR
-    A[Код] --> B[Husky Linting]
-    B --> C[GitHub Push]
-    C --> D[Actions CI]
-    D --> E[TypeDoc Gen]
-    E --> F[Deploy]
