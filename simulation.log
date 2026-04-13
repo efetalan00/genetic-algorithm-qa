@@ -1,0 +1,9 @@
+2026-04-10 12:47:57,904 - INFO - [GeneticSimulator] - --- Senaryo 1: Normal Çalışma Başlıyor ---
+2026-04-10 12:47:57,907 - INFO - [GeneticSimulator] - Genetik Motor başlatıldı. Parametreler: Popülasyon=5, Mutasyon=0.1
+2026-04-10 12:47:57,910 - DEBUG - [GeneticSimulator] - 5 boyutunda yeni popülasyon oluşturuluyor...
+2026-04-10 12:47:57,911 - DEBUG - [GeneticSimulator] - 5 boyutunda yeni popülasyon oluşturuluyor...
+2026-04-10 12:47:57,911 - INFO - [GeneticSimulator] - --- Senaryo 1 Tamamlandı ---
+
+2026-04-10 12:47:57,912 - INFO - [GeneticSimulator] - --- Senaryo 2: Hata Testi Başlıyor ---
+2026-04-10 12:47:57,912 - INFO - [GeneticSimulator] - Genetik Motor başlatıldı. Parametreler: Popülasyon=5, Mutasyon=99.0
+2026-04-10 12:47:57,918 - ERROR - [GeneticSimulator] - ERROR_ID: 7F86AD33 | Message: Geçersiz mutasyon oranı: 99.0. Değer 0 ile 1 arasında olmalıdır. | Context: {'input_value': 99.0}
